@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spiel17und4</string>
+    <string name="sumText">Summe</string>
+    <string name="btn_surrender">Aufgeben</string>
+    <string name="btn_draw">Ziehen</string>
+    <string name="text_drawn">Getzogen</string>
+    <string name="winMessage">Gewonnen</string>
+    <string name="surrenderMessage">Aufgegeben</string>
+    <string name="looseMessage">Verloren</string>
+    <string name="btn_newGame">neues Spiel</string>
+    <string name="card_drawnName">gezogene Karte</string>
+    <string name="Heart">Herz</string>
+    <string name="Pikes">Pick</string>
+    <string name="Clovers">Kreuz</string>
+    <string name="Tiles">Karo</string>
+    <string name="Two">zwei</string>
+    <string name="Three">drei</string>
+    <string name="Four">vier</string>
+    <string name="Five">fünf</string>
+    <string name="Six">sechs</string>
+    <string name="Seven">sieben</string>
+    <string name="Eight">acht</string>
+    <string name="Nine">neun</string>
+    <string name="Ten">zehn</string>
+    <string name="Jack">bube</string>
+    <string name="Lady">dame</string>
+    <string name="King">könig</string>
+    <string name="Ass">ass</string>
+    <string name="card_drawnNameText">%1s%2s</string>
+</resources>

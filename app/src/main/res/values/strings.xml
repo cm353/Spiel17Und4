@@ -1,0 +1,34 @@
+<resources>
+<string name="app_name">Game17and4</string>
+<string name="sumText">sum:</string>
+<string name="btn_surrender">surrender</string>
+<string name="btn_draw">draw</string>
+<string name="text_drawn">drawn:</string>
+<string name="winMessage">you win</string>
+<string name="surrenderMessage">you\'ve surrendered</string>
+<string name="looseMessage">you loose</string>
+<string name="btn_newGame">new Game</string>
+<string name="card_drawnName">Card drawn</string>
+<string name="card_drawnNameText">%1s %2s</string>
+
+<string name="Heart">Heart</string>
+<string name="Tiles">Tiles</string>
+<string name="Clovers">Clovers</string>
+<string name="Pikes">Pikes</string>
+
+<string name="NULL" translatable="false"></string>
+<string name="Two">Two</string>
+<string name="Three">Three</string>
+<string name="Four">Four</string>
+<string name="Five">Five</string>
+<string name="Six">Six</string>
+<string name="Seven">Seven</string>
+<string name="Eight">Eight</string>
+<string name="Nine">Nine</string>
+<string name="Ten">Ten</string>
+<string name="Jack">Jack</string>
+<string name="Lady">Lady</string>
+<string name="King">King</string>
+<string name="Ass">Ass</string>
+
+</resources>

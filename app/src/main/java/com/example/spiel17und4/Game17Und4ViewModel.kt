@@ -8,12 +8,12 @@ class Game17Und4ViewModel : ViewModel() {
     private val randomGenerator = Random()
     var sum : Int = 0
     var gameState : Int = 0
-    private var numberOfDrawnCards = 0
+    var numberOfDrawnCards = 0
+    lateinit var card: FrenchCards
     private lateinit var cards : Array<FrenchCards>
 
-    fun drawNewCard() : FrenchCards {
+    fun drawNewCard() {
         if(numberOfDrawnCards==0) newGame()
-        var card: FrenchCards
         do {
             val cardIndex = randomGenerator.nextInt(cards.size)
             card = cards[cardIndex]
@@ -22,7 +22,7 @@ class Game17Und4ViewModel : ViewModel() {
         sum += card.cardVal
         changeGameState()
         numberOfDrawnCards++
-        return card
+
     }
 
     private fun changeGameState()  {
